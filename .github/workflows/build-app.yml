@@ -107,6 +107,7 @@ jobs:
     - name: Install
       run: yarn
 
+
     # 构建 electron 版本（Windows）
     - name: Build Electron (Windows)
       if: matrix.os == 'windows-2019'
