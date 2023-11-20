@@ -1,4 +1,5 @@
 # 在主分支上构建
+# 初始化
 name: build
 on:
   push: # push 触发
