@@ -1,5 +1,5 @@
 # 在主分支上构建
-# 初始化
+# 初始化 again
 name: build
 on:
   push: # push 触发
