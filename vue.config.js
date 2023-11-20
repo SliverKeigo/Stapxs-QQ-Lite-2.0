@@ -5,8 +5,7 @@
 module.exports = {
     publicPath: process.env.NODEJS_ENV === 'github-actions'
         ? '/Stapxs-QQ-Lite-2.0/'
-        : undefined
-    ,
+        : undefined,
     transpileDependencies: true,
     configureWebpack: {
         module: {
